@@ -12,33 +12,40 @@ const Experience = () => {
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
           <div className="experience_content">
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Javascript</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div>
                 {" "}
-                <h4>React</h4>
+                <h4>ReactJS</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillPatchCheckFill className='experience_details-icon'/>
+              <div>  
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
@@ -46,31 +53,44 @@ const Experience = () => {
         <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
              <div>
               <h4>SpringBoot</h4>
               <small className="text-light">Experienced</small>
              </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div>  
                 <h4>Spring Core</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div>  
                 <h4>Java</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="expeience_details">
+            <article className="experience_details">
+              <BsFillPatchCheckFill className='experience_details-icon'/>
+              <div>  
+                <h4>Hibernate</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
               <BsFillPatchCheckFill className='experience_details-icon'/>
               <div> 
-                <h4>POstgresSql</h4>
+                <h4>PostgresSql</h4>
+                <small className="text-light">Intermediate</small></div>
+            </article>
+            <article className="experience_details">
+              <BsFillPatchCheckFill className='experience_details-icon'/>
+              <div> 
+                <h4>Python</h4>
                 <small className="text-light">Intermediate</small></div>
             </article>
           </div>

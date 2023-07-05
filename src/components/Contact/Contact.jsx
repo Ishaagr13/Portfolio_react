@@ -4,17 +4,17 @@ import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import { useRef } from 'react';
-// import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      // emailjs.sendForm('service_snfnakx', 'template_r8547j5', form.current, 'KYE1VccVpcUQ9isRD')
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-      e.target.reset()
-};
+    emailjs.sendForm('service_x4cuk84', 'template_j9uxo8c', form.current, 'KYE1VccVpcUQ9isRD')
+     
+    e.target.reset();
+  };
   return (
     <section id='contact' style={{margin:"250px"}}>
       <h5>Get In Touch</h5>
