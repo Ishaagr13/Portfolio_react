@@ -3,6 +3,7 @@ import '../About/About.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaCertificate} from 'react-icons/fa'
+// import {RiFoldersLine} from 'react-icons/RiFoldersLine'
 import {RiFoldersLine} from 'react-icons/ri'
 
 const About = () => {
